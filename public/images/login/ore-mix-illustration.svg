@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#3f3f46"/>
+    </linearGradient>
+    <radialGradient id="rad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.15"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <circle cx="900" cy="200" r="300" fill="url(#rad)"/>
+  <g fill="none" stroke="#94a3b8" stroke-opacity="0.35">
+    <path d="M100 560 C 220 520, 340 620, 460 580 S 700 540, 820 560" stroke-width="2"/>
+    <path d="M120 600 C 260 560, 360 660, 520 620 S 760 580, 900 600" stroke-width="1.5"/>
+  </g>
+  <g fill="#e5e7eb" opacity="0.9">
+    <rect x="220" y="280" width="120" height="160" rx="12"/>
+    <rect x="380" y="300" width="120" height="180" rx="12"/>
+    <rect x="540" y="260" width="120" height="220" rx="12"/>
+  </g>
+  <g fill="#0ea5e9" opacity="0.8">
+    <circle cx="280" cy="460" r="6"/>
+    <circle cx="440" cy="500" r="6"/>
+    <circle cx="600" cy="520" r="6"/>
+  </g>
+  <g stroke="#0ea5e9" stroke-width="2" opacity="0.5">
+    <line x1="286" y1="460" x2="446" y2="500"/>
+    <line x1="446" y1="500" x2="606" y2="520"/>
+  </g>
+  <text x="60" y="90" fill="#e5e7eb" font-size="36" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto">Ore Mix Planner</text>
+  <text x="60" y="130" fill="#cbd5e1" font-size="16" font-family="Inter, system-ui">Industrial analytics • blending • monitoring</text>
+</svg>
